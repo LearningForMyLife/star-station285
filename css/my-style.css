@@ -53,15 +53,15 @@ img, p {
 /* header */
 header {
     width: 100%;
-    /* background-color: bisque; */
-    position: relative;
+    max-width: 1910px;
+    height: 90px;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
 }
 
 header nav {
-    position: fixed;
     width: 100%;
     height: 90px;
 }
@@ -238,7 +238,6 @@ header nav .nav-bar {
     background-color: white;
     opacity: .5;
     transition: .3s;
-    /* z-index: -1; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -284,6 +283,9 @@ main >*:not(.top-page){
 }
 main >.anchor {
     height: 0px;
+}
+main br.small-width {
+    display: none;
 }
 main * .text {
     color: black;
@@ -462,17 +464,25 @@ main .enterance img {
     height: 628px;
 }
 
-
+main .text >p {
+    transform: translate(var(--my-translateX), var(--my-translateY));
+}
 main .enterance .text {
     --my-translateX: 197px;
     --my-translateY: 564px;
     --my-aos-scroll: 1762;
 }
+main .enterance P:first-child {
+    --my-translateX: 0px;
+    --my-translateY: 0px;
+}
 main .enterance p:nth-child(2){
-    transform: translateX(10px);
+    --my-translateX: 10px;
+    --my-translateY: 0px;
 }
 main .enterance p:nth-child(3){
-    transform: translateX(120px);
+    --my-translateX: 120px;
+    --my-translateY: 0px;
 }
 /* ground */
 main .ground .line {
@@ -500,7 +510,8 @@ main .ground .text {
     text-align: center;
 }
 main .ground p:nth-child(2){
-    transform: translateX(23px);
+    --my-translateX: 23px;
+    --my-translateY: 0px;
 }
 
 /* foods */
@@ -530,7 +541,8 @@ main .foods .text {
     text-align: center;
 }
 main .foods .text .good-foods{
-    transform: translateX(29px);
+    --my-translateX: 29px;
+    --my-translateY: 0px;
 }
 main .foods .text:nth-child(2) {
     --my-translateX: 15px;
@@ -579,7 +591,8 @@ main .seat-view .text {
     --my-aos-scroll: 4286;
 }
 main .seat-view .text p:last-child {
-    transform: translate(551px, -115px);
+    --my-translateX: 551px;
+    --my-translateY: -115px;
 }
 
 /* star-finger */
@@ -692,7 +705,8 @@ footer .sunset .text span {
     --my-translateY: 42px;
     --my-rotateZ: 128deg;
     --my-aos-scroll: 6451;
-    --my-fade-controlX: -200px;
+    --my-fade-controlX: -500px;
+    --my-fade-conrtolY: 200px;
     display: inline-block;
     width: 119px;
     height: 109px;

@@ -1,0 +1,339 @@
+@media (max-width:1751px) {
+    main .grass .dog-description {
+        background-color: white;
+        color: black;
+        text-shadow: none;
+        font-weight: bold;
+        padding: 10px 5px;
+        line-height: 1.2;
+        transform: unset;
+        top: 557px;
+        left: 67px;
+    }
+
+    main br.small-width {
+        display: inline;
+    }
+
+    main .grass .content {
+        width: 50%;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    main .sand-turtle .start {
+        bottom: 63px;
+        right: 156px;
+        font-size: 45px;
+    }
+
+    main>*:not(.top-page, .grid, .anchor) {
+        height: 70vh;
+    }
+
+    /* enterance */
+    main .enterance .line {
+        top: 398px;
+        background-image: url('../img/line/line-change-M-01.png');
+        background-size: contain;
+    }
+
+    main .enterance .text {
+        --my-translateX: 294px;
+        --my-translateY: 459px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+
+    main .enterance P:first-child {
+        --my-translateX: -148px;
+        --my-translateY: 0px;
+    }
+
+    main .enterance p:nth-child(2) {
+        --my-translateX: -140px;
+        --my-translateY: 100px;
+    }
+
+    main .enterance p:nth-child(3) {
+        --my-translateX: -126px;
+        --my-translateY: 176px;
+    }
+
+    main .enterance img {
+        width: 60vw;
+        height: 100%;
+        --my-translateX: 626px;
+        --my-translateY: -261px;
+        --my-rotateZ: 0deg;
+    }
+
+    /* ground */
+    main .ground .line {
+        top: 393px;
+        background-image: url('../img/line/line-change-M-02.png');
+        background-size: contain;
+    }
+
+    main .ground img {
+        --my-translateX: 180px;
+        --my-translateY: -90px;
+        width: 60vw;
+        height: 100%;
+    }
+
+    main .ground .text {
+        --my-translateX: 1300px;
+        --my-translateY: 650px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+
+    main .ground P:first-child {
+        --my-translateX: 20px;
+        --my-translateY: 160px;
+    }
+
+    main .ground p:nth-child(2) {
+        --my-translateX: 160px;
+        --my-translateY: -50px;    
+    }
+
+    main .ground p:nth-child(3) {
+        --my-translateX: -60px;
+        --my-translateY: 0px;
+    }
+
+    /* castle */
+    main .castle .line {
+        width: 100%;
+        height: 227px;
+        position: absolute;
+        top: -279px;
+        background-image: url('../img/line/line-change-M-03.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+    main .castle .text {
+        --my-translateX: 100px;
+        --my-translateY: 0px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+    main .castle img {
+        --my-translateX: 450px;
+        --my-translateY: -519px;
+        --my-rotateZ: 0deg;
+        width: 60vw;
+        height: unset;
+    }
+    
+    /* foods */
+    main .foods .line {
+        width: 100%;
+        height: 200px;
+        top: 2022px;
+        background-image: url('../img/line/line-change-M-04.png');
+        background-size: contain;
+    }
+
+    main .foods img {
+        --my-translateX: 166px;
+        --my-translateY: 1048px;
+        --my-rotate: -7deg;
+        width: 40vw;
+    }
+    
+    main .foods .text {
+        --my-translateX: 1300px;
+        --my-translateY: 1750px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+    main .foods .text:nth-child(2) {
+        --my-translateX: 1000px;
+        --my-translateY: 2300px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+
+    main .foods .text p {
+        --my-translateX: 0px;
+        --my-translateY: 0px;
+    }
+    main .foods .text .good-foods {
+        --my-translateX: 0px;
+        --my-translateY: 0px;
+    }
+
+    /* seat-view */
+    main .seat-view .line {
+        top: 1290px;
+        background-image: url('../img/line/line-change-M-05.png');
+        background-size: contain;
+    }
+    main .seat-view .text {
+        --my-translateX: 800px;
+        --my-translateY: 2450px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+    main .seat-view .text p {
+        --my-translateX: 0px;
+        --my-translateY: 0px;
+    }
+    main .seat-view .text p:last-child {
+        --my-translateX: 0px;
+        --my-translateY: 0px;
+    }
+    main .seat-view img {
+        --my-translateX: 180px;
+        --my-translateY: 974px;
+        --my-rotateZ: 5deg;
+        width: 80vw;
+        height: unset;
+
+    }
+
+    /* star-finger */
+    main .star-finger .line {
+        width: 100%;
+        height: 200px;
+        top: 1924px;
+        position: absolute;
+        background-image: url('../img/line/line-change-M-06.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    main .star-finger .text {
+        --my-translateX: 1500px;
+        --my-translateY: 2700px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+    main .star-finger .text p{
+        --my-translateX: 0px;
+        --my-translateY: 0px;
+    }
+    main .star-finger img {
+        --my-translateX: 150px;
+        --my-translateY: 1426px;
+        --my-rotateZ: 4deg;
+        width: 80vw;
+        height: unset;
+    }
+
+    /* stay-house */
+    main .stay-house .text {
+        --my-translateX: 80px;
+        --my-translateY: 2600px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        white-space: nowrap;
+    }
+    main .stay-house .text p {
+        --my-translateX: 0px;
+        --my-translateY: 0px;
+
+    }
+    main .stay-house img {
+        --my-translateX: 250px;
+        --my-translateY: 1000px;
+        width: 70vw;
+        height: unset;
+    }
+
+    /* night-view */
+    main .night-view .line {
+        display: none;
+    }
+    main .night-view img {
+        --my-translateX: 200px;
+        --my-translateY: 3200px;
+        width: 70vw;
+        height: unset;
+    }
+    main .night-view .text {
+        --my-translateX: 1500px;
+        --my-translateY: 3600px;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        white-space: nowrap;
+    }
+    main .night-view .text p{
+        --my-translateX: 0px;
+        --my-translateY: 0px;
+    }
+
+    /* lookout */
+    main .lookout .line {
+        display: none;
+    }
+    main .lookout img {
+        --my-translateX: 130px;
+        --my-translateY: 3200px;
+        width: 85vw;
+        height: unset;
+    }
+    main .lookout .text {
+        --my-translateX: 100px;
+        --my-translateY: 3200px;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        white-space: nowrap;
+        text-align: left;
+    }
+    main .lookout .text p{
+        --my-translateX: 0px;
+        --my-translateY: 0px;
+    }
+
+    /* footer */
+    footer {
+        margin-top: 3508px;
+    }
+    footer .sunset {
+        background-image: url('../img/sunset-change-M.png');
+        height: 2752px;
+        background-size: 150%;
+        background-position: -807px 0px;
+    }
+    footer .sunset .text {
+        --my-translateX: 0px;
+        --my-translateY: -300px;
+        font-size: 60px;
+    }
+    footer .sunset .text span {
+        --my-translateX: 0px;
+        --my-translateY: 0px;
+        width: 147px;
+        height: 131px;
+        background-repeat: no-repeat;
+    }
+    footer .night-city {
+        margin-top: -356px;
+        background-image: url('../img/night-city-change-M.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 2258px;
+    }
+    footer .night-city .facebook {
+        transform: translate(741px, -606px) scale(1.2);
+    }
+    footer .night-city .google-map {
+        transform: translate(461px, -2013px);
+        width: 1061px;
+    }
+    footer .opening {
+        width: 70vw;
+        transform: translate(207px, -769px);
+    }
+    footer .night-city .contact-info {
+        transform: translate(-58px,-431px);
+    }
+    #contact {
+        position: absolute;
+
+    }
+}
