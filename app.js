@@ -12,7 +12,7 @@ function nav_open() {
 
 window.onscroll = function () {
     console.log(window.scrollY)
-    if (window.scrollY >= 2200 || window.scrollY < 13745) {
+    if (window.scrollY >= 2200 && window.scrollY < 7300) {
         burger_bar.forEach(element => {
             element.classList.add('dark')
         });

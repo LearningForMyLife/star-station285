@@ -294,6 +294,10 @@ main * .text {
     font-weight: bold;
     line-height: 2;
 }
+main .text > p{
+    --my-translateX: 0px;
+    --my-translateY: 0px;
+}
 main .grid {
     height: 100vh;
     background-image: url("../img/grid-125-smaller.png");
@@ -735,6 +739,9 @@ footer .night-city .contact-info{
 footer .night-city .contact-info p{
     font-size: 35px;
     line-height: 2;
+}
+footer .night-city .opening {
+    display: none;
 }
 
 /* album AOS */
